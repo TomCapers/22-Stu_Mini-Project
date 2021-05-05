@@ -21,6 +21,7 @@ li {
 }
 .container{
     width: 500px;
+    margin: 25px;
 }
 .container input{
     width:100%
