@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Go Sailing</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         <h1>Who Wants to Go Sailing?!</h1>
         <nav>
             <ul>
-                <a href="#"><li id="contact1">Contact Us</li></a>
+                <a href="#form1"><li id="contact1">Contact Us</li></a>
                 <a href="#"><li id="visit1">Visit Our Partners</li></a>
                 <a href="#"><li id="review1">Reviews</li></a>
             </ul>
@@ -24,16 +24,24 @@
 
     <section>
         <figure>
-            <img src="C:\Users\Thomas\Desktop\monohull-boat.jpg" alt="image of our boat">
+            <img src="monohull-boat.jpg" alt="image of our boat">
             <figcaption>This Boat is Rad!!!</figcaption>
         </figure>
+    </section>
+
+    <section class="body">
+        <p>Come along with us and see all of what sailing has to offer!</p>
+        <p>Feel the wind in your hair!</p>
+        <p>See exoctic places!</p>
+        <p>Meet new friends!</p>
+        <p>Get too inebriated and fall off the boat!</p>
     </section>
 
     <section>
         <div class="container">
             <p>Contact Us</p>
 
-        <form>
+        <form id=form1>
             <p>
                 <label for="name1">First Name</label>
                 <input type="text" name="First Name" id="name1">
@@ -47,6 +55,10 @@
             <p>
                 <label for=email>Email</label>
                 <input type="text" name="Email" id="email">
+            </p>
+
+            <p>
+                <input type="submit" value="Send">
             </p>
         </form>
 
